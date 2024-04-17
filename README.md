@@ -24,7 +24,7 @@ The project is organised as follows:
 * `idx/` contains the noisy dataset index;
 * `config/` contains the necessary dataset config;
 * `utils/`contains the necessary processing subroutines;
-* * `model/`contains the model related files.
+* `model/`contains the model related files.
 * `Results/`save run results.
 
 
@@ -33,11 +33,6 @@ The project is organised as follows:
 ### For train
 ```shell
 python train.py
-```
-
-### For test
-```shell
-python test.py
 ```
 
 
