@@ -9,7 +9,7 @@ import math
 from torch_geometric.nn import MessagePassing
 
 class MessagePassing(MessagePassing):
-    def __init__(self):
+    def __init__(self): 
         super(MessagePassing, self).__init__(aggr='sum')
 
     def forward(self, x, edge_index):
