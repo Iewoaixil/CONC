@@ -1,6 +1,6 @@
 # CONC: Complex-noise-resistant Open-set Node Classification with Adaptive Noise Detection
 ## Introduction
-The source code and models for our paper ROG_PL: Robust Open-Set Graph Learning via Region-Based Prototype Learning
+The source code and models for our paper CONC: Complex-noise-resistant Open-set Node Classification with Adaptive Noise Detection
 ## Framework
 ![image](https://github.com/Iewoaixil/CONC/blob/main/framework.jpg)
 
