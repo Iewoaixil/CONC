@@ -15,7 +15,7 @@ from utils.logger import Logger, print_to_logfile, print_to_console
 from utils.loss import *
 from utils.module import MLPHead
 from utils.plotter import plot_results
-import numpy as np
+import numpy as np 
 import matplotlib.pyplot as plt
 LOG_FREQ = 1
 
