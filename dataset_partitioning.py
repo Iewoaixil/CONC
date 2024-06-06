@@ -4,7 +4,7 @@ import copy
 from sklearn.model_selection import train_test_split
 from utils.label_division_utils import reassign_labels, special_train_test_split
 from torch_geometric.datasets import Planetoid
-from torch_geometric.datasets import Coauthor
+from torch_geometric.datasets import Coauthor 
 
 dataset_name = "cora"
 unseen_num = 2
