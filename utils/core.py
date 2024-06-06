@@ -1,6 +1,6 @@
 import torch
 from tqdm import tqdm
-from utils.meter import AverageMeter
+from utils.meter import AverageMeter 
 
 
 def accuracy(y_pred, y_actual, topk=(1, ), return_tensor=False):
