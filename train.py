@@ -343,6 +343,16 @@ def parse_args():
     parser.add_argument('--lambda_loss', type=float, default=1)
     parser.add_argument('--lambda_loss_nois', type=float, default=1)
     
+    # near tau1 tau2
+    # cora 5% 0.73 0.17 25% 0.57 0.4 50% 0.51 0.15
+    # citeseer 5% 0.05 0.63 25% 0.09 0.56 50% 0.24 0.7 
+    # coauthor 5% 0.08 0.42 25% 0.51 0.17 50% 0.5 0.49 
+    # arxiv 5% 0.5 0.5 25% 0.5 0.4 50% 0.18 0.46 
+    # far tau1 tau2
+    # cora 5% 0.55 0.24 25% 0.15 0.83 
+    # citeseer 5% 0.47 0.46 25% 0.49 0.47
+    # coauthor 5% 0.49 0.13  25% 0.09 0.17
+    # arxiv 5% 0.5 0.5 25% 0.5 0.5 
     parser.add_argument('--tau1', type=float, default=0.05)
     parser.add_argument('--tau2', type=float, default=0.63)
 
